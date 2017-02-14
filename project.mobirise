@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 4,
+    "uniqCompNum": 5,
     "versionPublish": "3.12"
   },
   "pages": {
@@ -218,70 +218,42 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
+          "_name": "header5",
+          "_anchor": "header5-4",
           "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": true,
-                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "DOMESTIC TRAVEL INSURANCE",
-                "showText": true,
-                "text": "<br>A ton of times we discover local travel protection pointless and another additional weight on our pocket. The extreme flight costs and to top it up we need to pay for travel protection. It is quite recently excessively! However, we approve of purchasing protection while voyaging universal. Tragically, it is residential travel protection which endures the worst part. <br><br>Myth: My Flying Time is Not More Than a Hour. I needn't bother with Travel Insurance Coverage for Such a Short Trip. <br><br>Truth: Emergency doesn't rely on upon the season of flight. A crisis circumstance can occur in matter of seconds. <br><br>Your flight gets postponed and you can miss your interfacing flight.Your flight gets crossed out and you are left hanging.You may lose your baggage.You may fall debilitated while in travel. <br><br>Every one of these circumstances are not time subordinate. They can happen at whatever time. The best way to be set up for it is to purchase travel protection. Get money related help on the off chance that you confront a crisis circumstance amid travel and spare yourself more anxiety. <br><br>Myth: Domestic Travel Insurance is Expensive. I can't Afford it. <br><br>Truth: First thing first – If you can't stand to purchase travel protection then you can't bear to travel. Period. <br><br>Household travel protection is not costly. It is recently your outlook. You are seeing the glass half void. On the off chance that you are persuaded of the criticality of protection then you won't think that its costly. Additionally, there are such a large number of organizations offering protection that you will be spoilt for decisions. You can pick the one that fits your prerequisite and spending plan. <br><br>Myth: Buying Insurance and Getting Claim is Such a Cumbersome Process. <br><br>Truth: Most of the travel insurance agencies nowadays offer online administrations. You can purchase on the web and even record a claim utilizing instinctive online process. <br><br>Myth: Insurance Companies are Usually Reluctant to Pay up When The Claim Time Comes. <br><br>Truth: Most of the circumstances issue emerges as a result of mis-offering. On the off chance that you didn't read the strategy reports deliberately or believed the specialist a lot then the probabilities of not getting the correct claim increments. Here is an agenda of things that will guarantee that you get your claim cash bother free: <br><br>Perused the arrangement archives carefully.Compare the travel protection strategies online.Buy the approach online with the goal that you fill the structures yourself and guarantee that correct data is filled in.Don't fall into the trap of false guarantees by the operator. <br><br>All things considered, in the event that you have perused the records deliberately, filled the frame accurately and comprehend what's in store then nobody can cheat you. There are laws to secure your rights, if the need emerges. Be that as it may, much of the time, taking after these essential strides guarantees that you get the legitimate claim. <br><br>Try not to disparage the significance of travel protection. Make the most of your excursion!<br>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "VIDEO SLIDE",
-                "showText": true,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "IMAGE SLIDE",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#f28281",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
-          "_anchor": "slider-3",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-size": "48px"
-            }
-          }
+          "title": "DOMESTIC TRAVEL INSURANCE",
+          "text": "A ton of times we discover local travel protection pointless and another additional weight on our pocket. The extreme flight costs and to top it up we need to pay for travel protection. It is quite recently excessively! However, we approve of purchasing protection while voyaging universal. Tragically, it is residential travel protection which endures the worst part. <br><br>Myth: My Flying Time is Not More Than a Hour. I needn't bother with Travel Insurance Coverage for Such a Short Trip. <br><br>Truth: Emergency doesn't rely on upon the season of flight. A crisis circumstance can occur in matter of seconds. <br><br>Your flight gets postponed and you can miss your interfacing flight.Your flight gets crossed out and you are left hanging.You may lose your baggage.You may fall debilitated while in travel. <br><br>Every one of these circumstances are not time subordinate. They can happen at whatever time. The best way to be set up for it is to purchase travel protection. Get money related help on the off chance that you confront a crisis circumstance amid travel and spare yourself more anxiety. <br><br>Myth: Domestic Travel Insurance is Expensive. I can't Afford it. <br><br>Truth: First thing first – If you can't stand to purchase travel protection then you can't bear to travel. Period. <br><br>Household travel protection is not costly. It is recently your outlook. You are seeing the glass half void. On the off chance that you are persuaded of the criticality of protection then you won't think that its costly. Additionally, there are such a large number of organizations offering protection that you will be spoilt for decisions. You can pick the one that fits your prerequisite and spending plan. <br><br>Myth: Buying Insurance and Getting Claim is Such a Cumbersome Process. <br><br>Truth: Most of the travel insurance agencies nowadays offer online administrations. You can purchase on the web and even record a claim utilizing instinctive online process. <br><br>Myth: Insurance Companies are Usually Reluctant to Pay up When The Claim Time Comes. <br><br>Truth: Most of the circumstances issue emerges as a result of mis-offering. On the off chance that you didn't read the strategy reports deliberately or believed the specialist a lot then the probabilities of not getting the correct claim increments. Here is an agenda of things that will guarantee that you get your claim cash bother free: <br><br>Perused the arrangement archives carefully.Compare the travel protection strategies online.Buy the approach online with the goal that you fill the structures yourself and guarantee that correct data is filled in.Don't fall into the trap of false guarantees by the operator. <br><br>All things considered, in the event that you have perused the records deliberately, filled the frame accurately and comprehend what's in store then nobody can cheat you. There are laws to secure your rights, if the need emerges. Be that as it may, much of the time, taking after these essential strides guarantees that you get the legitimate claim. <br><br>Try not to disparage the significance of travel protection. Make the most of your excursion!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
     }
