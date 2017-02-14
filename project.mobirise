@@ -1,0 +1,289 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12",
+    "uniqCompNum": 4,
+    "versionPublish": "3.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">LINKS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "TRAVEL INSURANCE COVERAGE",
+          "text": "Picking an appropriate arrangement will give you significant serenity. Best case scenario, it could spare your life. So while considering which strategy is ideal for you, it pays to take a gander at the subtle elements. <br><br>What are the costs for me to travel uninsured? <br><br>In case of genuine damage or disease, protection payouts can keep running into a huge number of US dollars. A uninsured Australian harmed in Alabama will wind up helpless before the costly American medicinal services framework. On the off chance that you consider a Canadian nibbled by a raging pooch in Rwanda or British explorer requiring a carrier out of the Himalaya, the advantages of travel protection are clear. <br><br>High costs don't generally mean the best scope. List what parts of an arrangement are vital to you. It's futile paying a premium to decrease auto rental overabundance on the off chance that you can't drive, or covering your gear when the sum total of what you have is a knapsack brimming with filthy socks and a dodgy mp3 player. Expelling alternatives or diminishing points of confinement frequently lessens the superior you pay. <br><br>What should be secured by my travel insurance coverage? <br><br>We trust crisis restorative scope is generally vital. Protection arrangements fluctuate, so read the fine print deliberately to see precisely what is secured. Certain previous medicinal conditions that improve the probability of a claim might be prohibited. On the off chance that you show at least a bit of kindness condition or terminal disease, you may need to give extra data before you can be offered an approach. Lively individuals, off-piste skiers and bungee jumpers ought to check if their exercises are secured. What's more, wounds happening amid expert games are for the most part not secured. <br><br>Protection premiums are figured in light of your inception, age, goal and span of go, with the world isolated into various zones. When setting out to nations like the USA, where medical coverage is a multi-billion dollar industry, or to less created nations with a lower standard of human services to which you're acclimated, search for an approach with an abnormal state of cover. A few suppliers will offer \"boundless\" therapeutic scope for a higher premium, while a less expensive strategy may conceal to US$10 million. The most astounding cases paid comprehensively keep running into a huge number of dollars, yet are probably not going to keep running into the many millions. <br><br>Different things to consider <br><br>Will a supplier carrier you home? Do they have specialists on the staff of their crisis hotline? Will they pay to fly your family to you in case you can't be moved? Perused the fine print and pick what suits your necessities. <br><br>Corresponding medicinal services assentions <br><br>A few nations have corresponding medicinal services concurrences with others, implying that in case you're from a taking an interest nation and going in another, you'll be qualified for nothing or sponsored open human services to a similar standard appreciated by inhabitants. Taking an interest nations incorporate (however are not restricted to) Australia, New Zealand, the UK and Ireland; Sweden, Norway and Finland; Italy and The Netherlands. Allude to your administration's voyager data landing page for subtle elements, taking note of that any corresponding scope won't be at an indistinguishable level from encouraged by domestic travel insurance. Also, in case you're an EU resident, keep in mind to convey an European Health Insurance Card to qualifies you for cut-cost or free state-gave human services in EEA nations and Switzerland. <br><br>Are your assets secured? <br><br>Next, affirm how your gear is secured, especially for burglary or harm. Are there individual thing limits? What are they? Are electronic gadgets included? Is burglary from inside an auto prohibited? Imagine a scenario in which your iPod falls in the Trevi Fountain. In the case of anything is indistinct, telephone your supplier – back up plans are lawfully obliged to unwind the fine print in basic terms.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> ",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "48px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "STUDENT TRAVEL INSURANCE",
+          "text": "Qualifying through the hardest examinations and flying abroad for higher reviews end up being a prized dream for some and at the same time, it grows a tree of uneasiness and doubts at the back of your head imaging about carrying on with a lone existence without family and relatives on a new ground. This is the time when you understand that going on a diversion excursion is totally unique in relation to welcome a farewell to your country and flying for a review trip. <br><br>Being your defend on a remote land and keeping your family comforted about your prosperity, one needs a travel protection cover. An all around planned protection arrange deals with your wellbeing, things and general protection. Aside from one's own particular need, it is even expressed as a necessary record by a few nations which have transformed into prominent review goals. For selecting the best travel protection strategy it is must to comprehend what essentially understudy travel protection means and how it is not quite the same as would be expected travel protection. <br><br>What is student travel insurance? <br><br>Understudy travel protection is additionally intended for a sheltered and pressure free outing simply like any standard travel protection, in any case, it is only intended to battle the dangers experienced by understudies heading out to remote land for higher reviews. Different back up plans dispatch distinctive arrangements that offer a scope of offices which for the most part covers travel and wellbeing related issues alongside some cover for protected's family if there should arise an occurrence of shocking occasions. They even care for educational cost related hazard for which single amount sum is paid before and the startling stopping of tutoring. Amid badly arranged circumstances you can guarantee for a repayment. <br><br>It is important to have understudy travel protection? <br><br>Firstly, the majority of the colleges outside India have made travel protection compulsory for remote understudies. Aside from this condition, it is must to comprehend the way that concentrate abroad is a costly arrangement and travel protection acts like a go down arrangement as far as money related soundness for you and your family. It is very clear that anybody can stall out up in circumstances of restorative crises while avoiding home for a more drawn out time. <br><br>Medicinal medications outside India are costlier and now of time travel protection cover goes about as the ideal monetary buddy. In the event that if there should be an occurrence of some ailment you are not ready to enter your exams then you would be repaid your educational cost expenses by the travel insurance agency for which you have paid everything ahead of time. <br><br>Which plan is ready with? <br><br>It is important to peruse the terms and rules of the college before selecting the protection strategy. Check the clarity of your strategy in contrast with the specified conditions. Presently, you have to look through the components which coordinate your needs like-restorative costs, educational cost expense, individual mishap, loss of gear, safeguard bond protection, family visit and so on. <br><br>Many are seen distrustful about the claim settlement handle, in any case, if there should be an occurrence of student travel insurance, this procedure is brisk, bother free and cashless. He/she can present the records amid the stay or in the wake of returning to India and the sum is exchanged to the guaranteed's ledger. Rest it varies negligibly from one safety net provider to the next.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "DOMESTIC TRAVEL INSURANCE",
+                "showText": true,
+                "text": "<br>A ton of times we discover local travel protection pointless and another additional weight on our pocket. The extreme flight costs and to top it up we need to pay for travel protection. It is quite recently excessively! However, we approve of purchasing protection while voyaging universal. Tragically, it is residential travel protection which endures the worst part. <br><br>Myth: My Flying Time is Not More Than a Hour. I needn't bother with Travel Insurance Coverage for Such a Short Trip. <br><br>Truth: Emergency doesn't rely on upon the season of flight. A crisis circumstance can occur in matter of seconds. <br><br>Your flight gets postponed and you can miss your interfacing flight.Your flight gets crossed out and you are left hanging.You may lose your baggage.You may fall debilitated while in travel. <br><br>Every one of these circumstances are not time subordinate. They can happen at whatever time. The best way to be set up for it is to purchase travel protection. Get money related help on the off chance that you confront a crisis circumstance amid travel and spare yourself more anxiety. <br><br>Myth: Domestic Travel Insurance is Expensive. I can't Afford it. <br><br>Truth: First thing first – If you can't stand to purchase travel protection then you can't bear to travel. Period. <br><br>Household travel protection is not costly. It is recently your outlook. You are seeing the glass half void. On the off chance that you are persuaded of the criticality of protection then you won't think that its costly. Additionally, there are such a large number of organizations offering protection that you will be spoilt for decisions. You can pick the one that fits your prerequisite and spending plan. <br><br>Myth: Buying Insurance and Getting Claim is Such a Cumbersome Process. <br><br>Truth: Most of the travel insurance agencies nowadays offer online administrations. You can purchase on the web and even record a claim utilizing instinctive online process. <br><br>Myth: Insurance Companies are Usually Reluctant to Pay up When The Claim Time Comes. <br><br>Truth: Most of the circumstances issue emerges as a result of mis-offering. On the off chance that you didn't read the strategy reports deliberately or believed the specialist a lot then the probabilities of not getting the correct claim increments. Here is an agenda of things that will guarantee that you get your claim cash bother free: <br><br>Perused the arrangement archives carefully.Compare the travel protection strategies online.Buy the approach online with the goal that you fill the structures yourself and guarantee that correct data is filled in.Don't fall into the trap of false guarantees by the operator. <br><br>All things considered, in the event that you have perused the records deliberately, filled the frame accurately and comprehend what's in store then nobody can cheat you. There are laws to secure your rights, if the need emerges. Be that as it may, much of the time, taking after these essential strides guarantees that you get the legitimate claim. <br><br>Try not to disparage the significance of travel protection. Make the most of your excursion!<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "VIDEO SLIDE",
+                "showText": true,
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "IMAGE SLIDE",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-3",
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "font-size": "48px"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
